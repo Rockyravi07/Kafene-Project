@@ -3,9 +3,8 @@
     background-color: #F6F7FB;
     font-family: "Poppins",sans-serif;
 }
-
 /* This contant only for Nav Bar */
-.Topbar_Topbar {
+.topbar {
     width: 100%;
     
     box-sizing: border-box;
@@ -20,8 +19,8 @@
     font-family: "Poppins", sans-serif;
 }
 
-.Topbar_Topbar,
-.Topbar_LogoWrapper {
+.topbar,
+.logowrapper {
     display: flex;
     align-items: center;
     background-color: #fff;
@@ -32,7 +31,7 @@
 
 }
 
-.Topbar_LogoWrapper img {
+.logowrapper img {
     width: 24px;
     height: 28px;
     margin-right: 8px;
@@ -58,7 +57,7 @@ nav a {
     font-family: "Poppins", sans-serif;
     background-color: #fff;
 }
-.Topbar_LogoWrapper{margin-right: 36px;
+.logowrapper{margin-right: 36px;
     background-color: #fff;
 }
 
@@ -80,7 +79,7 @@ nav a {
   
   }
 
-  .Homepageorders {
+  .checkboxorders {
     display: flex;
     align-items: baseline;
   }
@@ -92,7 +91,7 @@ nav a {
     cursor: pointer;
   }
 
-  .Homepage_OrderTable {
+  .homepageorder {
     width: 100%;
   }
   #filtertxt {
@@ -103,11 +102,11 @@ nav a {
     margin: 10px 0;
   }
 
-  .Homepage_OrderTable td {
+  .homepageorder td {
     text-align: center;
   }
 
-  .Topbar_BrandName{
+  .topbrandname{
     background-color: #fff;
   }
 
@@ -136,14 +135,14 @@ nav a {
 /* This contant of User Page */
 
 
-.UserList_FilterWrapper {
+.userfilterwrapper {
   width: 700px;
   display: flex;
   align-items: center;
   margin-bottom: 48px;
 }
 
-.UserList_SearchBox {
+.usersearchbox {
   width: calc(100% - 100px);
   padding: 12px 24px;
   font-size: 15px;
@@ -155,7 +154,7 @@ nav a {
 }
 
 
-.UserList_Button {
+.userbutton {
   display: inline-block;
   border-radius: 30px;
   padding: 14px 36px;
@@ -170,6 +169,6 @@ nav a {
 }
 
 
-.UserList_SecondaryText {
+.usersecondarytext {
   color: #8c8c8c;
 }
