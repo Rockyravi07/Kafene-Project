@@ -12,11 +12,11 @@
     <title>Kafene Web App</title>
 
     <style> 
-      .maincontent {
+      .main {
         margin-top: 100px;
       }
 
-      .LoginPage_LoginForm {
+      .loginpage {
         box-shadow: 0 0 6px #ccc;
         display: flex;
         flex-direction: column;
@@ -28,13 +28,13 @@
         border-radius: 6px;
       }
 
-      .LoginPage_LoginForm h1 {
+      .loginpage h1 {
         letter-spacing: 1px;
         font-weight: 500;
         margin: 0 0 24px;
       }
 
-      .LoginPage_InputField_0 {
+      .loginpageinput {
         width: 100%;
         padding-top: 16px;
         font-size: 14px;
@@ -45,7 +45,7 @@
         outline: none;
       }
 
-      .LoginPage_Button {
+      .loginbutton {
         display: inline-block;
         border-radius: 30px;
         padding: 14px 36px;
@@ -63,10 +63,10 @@
   </head>
 
   <body>
-    <div class="Topbar_Topbar">
-      <div class="Topbar_LogoWrapper">
+    <div class="topbar">
+      <div class="logowrapper">
         <img src="./Kafene logo.png" alt="logo" />
-        <p class="Topbar_BrandName">Kafene</p>
+        <p class="topbrandname">Kafene</p>
       </div>
       <nav>
         <a href="orders.html">Orders</a>
@@ -75,30 +75,30 @@
       </nav>
     </div>
  
-    <div class="maincontent">
+    <div class="main">
       <form
-        id="form_id"
+        id="formid"
         method="post"
-        class="LoginPage_LoginForm"
+        class="loginpage"
         name="myform"
       >
         <h1>Sign In</h1>
         <input
-          class="LoginPage_InputField_0"
+          class="loginpageinput"
           type="text"
           name="username"
           id="username"
           placeholder="Enter Username"
         />
         <input
-          class="LoginPage_InputField_0"
+          class="loginpageinput"
           type="password"
           name="password"
           id="password"
           placeholder="Enter Password"
         />
         <input
-          class="LoginPage_Button"
+          class="loginbutton"
           type="button"
           value="Login"
           id="submit"
