@@ -15,23 +15,20 @@
     rel="stylesheet">
    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <style>
- 
- 
-
 #Users {
         color: #20b883;
         border-bottom: 3px solid #20b883;
       }
 
     </style>
-    <title>Web App</title>
+    <title>Kafene Web App</title>
   </head>
 
   <body>
-    <div class="Topbar_Topbar">
-      <div class="Topbar_LogoWrapper">
+    <div class="topbar">
+      <div class="logowrapper">
         <img src="./Kafene logo.png " alt="logo" />
-        <p class="Topbar_BrandName">Kafene</p>
+        <p class="topbrandname">Kafene</p>
       </div>
       <nav>
         <a href="orders.html">Orders</a>
@@ -44,19 +41,19 @@
     <div class="maincontainer">
       <h1>Users</h1>
 
-      <form class="UserList_FilterWrapper">
+      <form class="userfilterwrapper">
         <input
-          class="UserList_SearchBox"
+          class="usersearchbox"
           type="search"
           id="search-box"
           placeholder="Search by Name"
-        /><input type="reset" onclick="getUsers()" class="UserList_Button" value="Reset" />
+        /><input type="reset" onclick="getUsers()" class="userbutton" value="Reset" />
       </form>
 
-      <div class="Homepageorders">
+      <div class="checkboxorders">
      
  
-        <table class="Homepage_OrderTable">
+        <table class="homepageorder">
           <tr>
             <th>ID</th>
             <th>User Avatar</th>
